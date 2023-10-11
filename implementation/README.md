@@ -7,7 +7,7 @@
 
 - [x] init projects
 - make route
-  - [ ] 아래의 suburl을 입력했을 때 해당 화면으로 라우팅되어야 합니다.
+  - [x] 아래의 suburl을 입력했을 때 해당 화면으로 라우팅되어야 합니다.
     1.  `/` : main page (4)
     2.  `/space`: space page (5)
     3.  `/space/iss`: iss page (6-a)
