@@ -8,23 +8,6 @@ import People from './pages/People';
 function App() {
   return (
     <Router>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/space">Space</Link>
-          </li>
-          <li>
-            <Link to="/space/iss">Iss</Link>
-          </li>
-          <li>
-            <Link to="/space/people">People</Link>
-          </li>
-        </ul>
-      </nav>
-
       <Switch>
         <Route path="/space/iss">
           <Iss />

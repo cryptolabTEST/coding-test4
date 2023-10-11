@@ -1,8 +1,17 @@
 import React from 'react';
-import Nav from '../components/Nav';
+import { Link } from 'react-router-dom';
 
 function Space() {
-  return;
+  return (
+    <div>
+      <button>
+        <Link to="/space/iss">ISS</Link>
+      </button>
+      <button>
+        <Link to="/space/people">People</Link>
+      </button>
+    </div>
+  );
 }
 
 export default Space;
